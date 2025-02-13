@@ -28,4 +28,9 @@ public final class Constants {
     public static final String KAFKA_BROKERS_ARG = "kafkaBrokers";
     public static final String INPUT_TOPIC_ARG = "inputTopic";
     public static final String INPUT_TOPIC_GROUP_ARG = "inputTopicGroup";
+    // Required configurations constants for connecting to Mongo
+    public static final String CONNECTION_STRING = "connectionString";
+    public static final String DATABASE_NAME = "databaseName";
+    public static final String COLLECTION_NAME = "collectionName";
+    public static final String MONGO_INTERVAL_MILLIS_ARG = "mongoIntervalMs";
 }
